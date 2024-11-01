@@ -42,6 +42,10 @@ INSTALLED_APPS = [
     'django_filters',
     'corsheaders',
     'channels',
+
+    # app
+    'authenticate',
+    'user',
 ]
 
 REST_FRAMEWORK = {
